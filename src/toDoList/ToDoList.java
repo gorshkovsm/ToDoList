@@ -6,7 +6,6 @@ import java.util.stream.Collectors;
 public class ToDoList {
     private final Map<Integer,Task> tasks=new HashMap<>();
 
-
     public boolean taskExists(int taskId){
         return tasks.containsKey(taskId);
     }
@@ -54,5 +53,4 @@ public class ToDoList {
                 .filter(t->t.isCompleted()==isCompleted)
                 .collect(Collectors.toList());
     }
-
 }
