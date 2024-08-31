@@ -131,8 +131,5 @@ public class ToDoApp {
         } else {
             tasks.forEach(System.out::println);
         }
-
     }
-
-
 }
