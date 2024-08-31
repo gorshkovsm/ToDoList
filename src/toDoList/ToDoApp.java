@@ -67,7 +67,7 @@ public class ToDoApp {
                 System.out.println("Задача с таким id не существует");
                 return;
             }
-            System.out.println("Выберите код операции: 1-Редактировать название, 2-Редактироать описание, 3-Изменить статус задачи");
+            System.out.println("Выберите код операции: 1-Редактировать название, 2-Редактировать описание, 3-Изменить статус задачи");
             String command = sc.nextLine();
             switch (command) {
                 case "1" -> {
