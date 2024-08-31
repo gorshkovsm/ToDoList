@@ -42,7 +42,6 @@ public class Task {
         isCompleted = completed;
     }
 
-
     @Override
     public String toString() {
         String checkBox = isCompleted?"[+]":"[-]";
